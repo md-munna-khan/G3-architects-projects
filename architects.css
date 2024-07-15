@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* shared styles */
+  .display-flex{
+    display: flex;
+  }
+  /* darko2 */
+  .dark2{
+    color: rgb(66, 66, 66);
+  }
+  .btn-primary{
+border-radius: 0.5rem;
+font-size: 1.4rem;
+font-weight: 600;
+color:rgb(255, 255, 255) ;
+border-radius: 8px;
+background: rgb(255, 144, 14);
+padding: 20px 25px;
+border: none;
+  }
+  /* navbar styles */
+  .brand{
+ 
+font-size: 45px;
+font-weight: 3rem;
+  }
+  .navbar{
+    justify-content: space-between;
+  
+    align-items: center;
+  }
+  .nav-links{
+   align-items: center;
+  }
+.nav-item{
+  list-style: none;
+}
+  .nav-link{
+    text-decoration: none;
+    margin-right: 20px;
+  }
+ 
+ 
+  .bg-colour{
+    max-width:1920px ;
+    margin: 0 auto;
+    background-color:rgba(255, 144, 14, 0.1) ;
+  }
+  /* banner related styles */
+  .banner-content{
+   
+    max-width: 868px;
+    text-align: center;
+    justify-content: center;
+    margin:0 auto ;
+    margin-bottom: 3rem;
+  }
+  .banner-tittle{
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .banner-description{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .banner-img{
+    width: 100%;
+  }
+  /* responsive media query */
+  @media screen and (max-width:576px) {
+    .navbar,.navlinks{
+      flex-direction: column;
+    }
+  }
